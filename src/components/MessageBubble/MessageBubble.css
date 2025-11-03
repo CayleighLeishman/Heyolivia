@@ -1,0 +1,23 @@
+.message {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.message.her {
+  background: #E6E6E6;
+  align-self: flex-start;
+}
+
+.message.bot {
+  background: #DCF8C6;
+  align-self: flex-end;
+}
+
+.message.image-message img {
+  max-width: 200px;
+  border-radius: 15px;
+  display: block;
+}
